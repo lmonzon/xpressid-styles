@@ -1,8 +1,9 @@
 /* Hacer que el encuadre de captura sea redondo en lugar de cuadrado */
-vd-document::part(capture_glowing_outline_container) {
+vd-selfie::part(capture_glowing_outline_container) {
   border-radius: 50%; /* Hace que el encuadre sea completamente redondo */
   border: 4px solid #1464A5; /* Añade un borde para que el círculo sea visible */
 }
+
 
 /* Opcional: Ajustar el tamaño del contenedor de captura */
 vd-document::part(capture_glowing_outline) {
