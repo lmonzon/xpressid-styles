@@ -1,0 +1,21 @@
+/* Hacer que el encuadre de captura sea redondo en lugar de cuadrado */
+vd-document::part(capture_glowing_outline_container) {
+  border-radius: 50%; /* Hace que el encuadre sea completamente redondo */
+  border: 4px solid #1464A5; /* Añade un borde para que el círculo sea visible */
+}
+
+/* Opcional: Ajustar el tamaño del contenedor de captura */
+vd-document::part(capture_glowing_outline) {
+  width: 80vw; /* Ajusta el ancho */
+  height: 80vw; /* Ajusta la altura para que sea circular */
+  max-width: 300px; /* Controla el tamaño máximo */
+  max-height: 300px;
+}
+
+/* Ajustar el mensaje de instrucciones si es necesario */
+vd-document::part(instructions_slide_header) {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #1464A5;
+}
